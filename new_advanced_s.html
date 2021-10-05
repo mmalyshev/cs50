@@ -1,0 +1,61 @@
+<!DOCTYPE  html>
+<head>
+    <title>Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        .form-control {
+           display: inline-block; 
+        }
+
+
+        .divs{
+            text-align: center;
+            padding: 10px;
+        }
+
+        .input_field{
+            width: 50%;
+            margin: 0 auto;
+            padding: 5px;
+        }
+        #submit_button {
+            display: inline-block;
+            text-align: center;
+
+        }
+    </style>    
+</head>
+<body>
+
+    <div style="text-align: end; padding-right: 100px; padding-top: 40px; width: 100%;" class="button" id="back_button">
+        <a href="main_search.html" type="button" class="btn btn-light">Back to main</a>
+    </div>
+
+    <div>
+
+        <h1 style="text-align: center; padding: 30px;">Google <br> Advanced Search</h1>
+
+        <form style="text-align: center;" action="https://google.com/search">
+            <div id="input1">
+              <p>Find pages with...</p>
+            </div>
+            <div id="input2">
+              <p>all these words: <input id="imput6" type="text" name="as_q"> </p>
+            </div>
+            <div id="input3">
+              <p>this exact word or phrase: <input id="imput7" type="text" name="as_epq"> </p>
+            </div>
+            <div id="input4">
+              <p>any of these words: <input id="imput8" type="text" name="as_oq"> </p>
+            </div>
+            <div id="input5">
+              <p>none of these words: <input id="imput9" type="text" name="as_eq"> </p>
+            </div>
+            <div class="button" id="submit_button">
+              <input type="submit" value="Advanced search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
